@@ -1,0 +1,67 @@
+.win-box {
+  background: linear-gradient(to bottom, rgba(125, 126, 125, 0.9) 0%, rgba(14, 14, 14, 0.9) 100%);
+  width: 90vw;
+  height: 80vh;
+  z-index: 1;
+  position: fixed;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  color: deepskyblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none
+}
+
+.win-header {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.win-score {
+  text-transform: capitalize;
+  font-size: 2.5em;
+}
+
+.win-text {
+  font-size: 1.5em;
+  color: whitesmoke;
+  text-align: center;
+  width: 65%;
+  max-height: 30%;
+  overflow-y: hidden;
+}
+
+.win-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  justify-content: space-around;
+}
+
+.win-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.win-button {
+  height: 7vh;
+  font-size: 1.2em;
+  width: 20vw;
+}
+
+.win-button:hover {
+  background-color: rgba(125, 126, 125, 0.4);
+  color: deepskyblue;
+  border: 1px solid deepskyblue;
+}

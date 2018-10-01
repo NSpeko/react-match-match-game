@@ -1,0 +1,24 @@
+.active-user {
+  color: red;
+}
+
+td {
+  max-width: 180px;
+  overflow: hidden;
+}
+
+.cell-rate {
+  width: 5vw;
+}
+
+.cell-name {
+  width: 15vw;
+}
+
+.cell-email {
+  width: 23vw;
+}
+
+.cell-score {
+  width: 5vw;
+}

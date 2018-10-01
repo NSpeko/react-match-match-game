@@ -1,0 +1,17 @@
+export const PAGE_CHANGE = 'PAGE_CHANGE';
+export const USER_CHANGE = 'USER_CHANGE';
+export const UPDATE_USERSCORE = 'UPDATE_USERSCORE';
+export const UPDATE_USER_POSITION = 'UPDATE_USER_POSITION';
+export const SET_REGISTERED = 'SET_REGISTERED';
+export const BACK_CHANGE = 'BACK_CHANGE';
+export const SIZE_CHANGE = 'SIZE_CHANGE';
+export const CHANGE_WINMODAL_STATUS = 'CHANGE_WINMODAL_STATUS';
+export const SET_CARDS = 'SET_CARDS';
+export const ROLL_CARD = 'ROLL_CARD';
+export const DROP_TIMER = 'DROP_TIMER';
+export const STOP_TIMER = 'STOP_TIMER';
+export const START_TIMER = 'START_TIMER';
+export const TIMER_PUSH = 'TIMER_PUSH';
+export const ADD_SECOND = 'ADD_SECOND';
+export const ADD_MINUTE = 'ADD_MINUTE';
+export const CLEAR_SECONDS = 'CLEAR_SECONDS';

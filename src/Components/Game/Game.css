@@ -1,0 +1,32 @@
+.game-container {
+  display: grid;
+  grid-template-areas: "dif field field field back";
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.game-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field-container {
+  grid-area: field;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.back-container {
+  grid-area: back;
+  width: 20vh;
+}
+
+.difficulty-container {
+  grid-area: dif;
+  width: 30vh;
+}

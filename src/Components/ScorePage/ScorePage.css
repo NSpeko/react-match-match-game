@@ -1,0 +1,48 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+  height: 70vh;
+}
+
+.hidden-page {
+  display: none;
+}
+
+.score-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.score-table-body {
+  height: 90%;
+  width: 60vw;
+}
+
+.table-row {
+  display: flex;
+  height: 4.5vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-header {
+  color: deepskyblue;
+}
+
+.pages {
+  margin-bottom: 7vh;
+}
+
+.table-cell {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

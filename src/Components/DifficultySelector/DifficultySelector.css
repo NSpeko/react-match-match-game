@@ -1,0 +1,39 @@
+.difficulty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dif-card {
+  width: 60%;
+  height: 20%;
+  font-size: 1em;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.dif-card:hover,
+.active {
+  border: 5px solid deepskyblue;
+}
+
+.easy-dif {
+  background: linear-gradient(-135deg, transparent 22px, #555 0) top right, linear-gradient(-45deg, transparent 22px, green 0) bottom right;
+}
+
+.medium-dif {
+  background: linear-gradient(-135deg, transparent 22px, #555 0) top right, linear-gradient(-45deg, transparent 22px, orangered 0) bottom right;
+}
+
+.hard-dif {
+  background: linear-gradient(-135deg, transparent 22px, #555 0) top right, linear-gradient(-45deg, transparent 22px, red 0) bottom right;
+}
+
+.nightmare-dif {
+  background: linear-gradient(-135deg, transparent 22px, #555 0) top right, linear-gradient(-45deg, transparent 22px, black 0) bottom right;
+}

@@ -1,0 +1,24 @@
+.back-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.container-header {
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+
+.back {
+  width: 60%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active-back-image,
+.back-image {
+  width: 100%;
+  border-radius: 50%;
+}

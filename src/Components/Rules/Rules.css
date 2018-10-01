@@ -1,0 +1,36 @@
+.rules-container {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.game-rules {
+  display: flex;
+  flex-direction: column;
+}
+
+.hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: rgba(25, 25, 25, 0.6);
+  color: deepskyblue;
+}
+
+.rule {
+  overflow: hidden;
+}
+
+.rules-button {
+  background: rgba(25, 25, 25, 0.3);
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
